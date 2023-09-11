@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="th">
+
+<head>
+    <meta charset="utf-8">
+    <title>Smart City - Overview</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ui.css">
+    <link rel="icon" sizes="32x32" href="favicon/favicon-32x32.png">
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="bs-part.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        .carousel-inner img {
+            width: 100%;
+            height: 100%;
+        }
+        .carousel-contain{
+            width: 100%;
+            height:100vh;
+        }
+        #demo{
+            position:initial;
+            width:100%;
+        }
+        .contain{
+            padding:0% 10%;
+        }
+        .pic img{
+            width:100%;
+        }
+        @media screen and (max-width:800px) {
+           .carousel-inner img{
+               height:20vmax;
+           }
+        .carousel-contain{
+            height:20%;
+        }
+           
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <div class="nav">
+            <ul>
+                <li><a id="home" href="/index.html">Home</a></li>
+                <li><a id="sys" href="/sys.html">System</a></li>
+                <li><a id="over" class="active-nav" href="/over.html">Overview</a></li>
+                <li><a id="services" href="/Services.html">Services</a></li>
+                <li><a id="con" href="/contact.html">Contact</a></li>
+                <li><a id="about" href="/about.html">About us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div class="contain" style="display:block;padding-top:2%">
+            <center>
+
+                <div id="demo" class="carousel slide" data-ride="carousel">
+
+                    <!-- Indicators -->
+                    <br>
+                    <ul class="carousel-indicators"><br>
+                        <li data-target="#demo" data-slide-to="0" class="active"></li>
+                        <li data-target="#demo" data-slide-to="1"></li>
+                        <li data-target="#demo" data-slide-to="2"></li>
+                        <li data-target="#demo" data-slide-to="3"></li>
+                        <li data-target="#demo" data-slide-to="4"></li>
+                        <li data-target="#demo" data-slide-to="5"></li>
+                    </ul>
+
+                    <!-- The slideshow -->
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="carousel-contain">
+                            <img src="picture/i01.png" alt="System home" width="700" height="500">
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-contain">
+                            <img src="picture/i02.jpg" alt="บ้าน" width="700" height="500">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-contain">
+                            <img src="picture/i03.png" alt="บ้านปล่อยไวไฟ" width="700" height="500">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-contain">
+                            <img src="picture/i04.jpg" alt="บ้านและอุปกรณ์" width="700" height="700">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-contain">
+                            <img src="picture/i05.jpg" alt="บ้านทุ่งเขียว" width="700" height="500">
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="carousel-contain">
+                            <img src="picture/i06.jpg" alt="บ้านทุ่งเขียว" width="700" height="500">
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Left and right controls -->
+                    <a class="carousel-control-prev" href="#demo" data-slide="prev" colo>
+                        <span class="carousel-control-prev-icon"></span>
+                    </a>
+                    <a class="carousel-control-next" href="#demo" data-slide="next">
+                        <span class="carousel-control-next-icon"></span>
+                    </a>
+                </div>
+            </center>
+            <br>
+            <div>
+            <h1 style="padding-left:50;"> Smart System </h1>เป็นการนำอุปกรณ์ที่สามารถส่งสัญญานผ่านอินเตอร์เน็ตได้ มาทำงานร่วมกับซอพท์แวร์
+            บนโทรศัพท์มือถือ ทำให้เราสามารถควบคุมระบบไฟฟ้า อุปกรณ์เครื่องใช้หรือ
+            ระบบรักษาความปลอดภัย ต่างๆ ภายในบ้านได้ด้วยการกดปุ่มสั่งการผ่านสมาร์ทโฟน
+            (Smartphone) หรือใช้ เสียงพูด (Voice Command)ช่วยให้การอยู่อาศัย และ
+            การดูแลบ้านมีความสะดวกสบาย ทันสมัย ปลอดภัย ประหยัดเวลามากยิ่งขึ้น<br><br>
+            <p><h1>เราอยากเป็นหนึ่งในผู้ลักดัน Smart City</h1>
+                ประเทศไทยเราอยู่ในช่วงของการพัฒนาเมืองอัจฉริยะ ซึ่งมีหลายเมืองที่มีแผนการสร้าง ได้แก่ กรุงเทพฯ กระบี่ ภูเก็ต ขอนแก่น
+                จันทบุรีและชลบุรี ก็ต้องรอกันต่อไปว่า เมืองอัจฉริยะของเราจะออกมาเป็นรูปเป็นร่างและเสร็จสมบูรณ์ได้เมื่อไหร่
+                และหวังว่าหากสำเร็จลงจะช่วยเพิ่มคุณภาพชีวิตให้คนไทยมีสภาพแวดล้อมที่ดีขึ้น
+                คุณภาพชีวิตโดยรวมที่ดีขึ้นต่อไป ทางเราเองก็อยากมีส่วนช่วยให้โครงการเมืองอัฉริยะนั้น เกิดขึ้นในไทยได้อย่างราบรื่น
+            </p>
+            </div>
+            <div class="pic">
+                <img src="picture/daniil-silantev-sN4u56baSB0-unsplash.jpg">
+            </div>
+            <div>
+                <p><h1>ตัวอย่างของเมืองอัจฉริยะ
+</h1><h3>Amsterdam</h3>อัมสเตอร์ดัม ได้ร่วมมือกับบริษัทยักษ์ใหญ่ อย่าง Phillips, Cisco, IBM, และบริษัทเล็กๆอีกจำนวนมาก
+มุ่งพัฒนาสู่ความเป็นเมืองสีเขียว go green..เป็นมิตรกับสิ่งแวดล้อม บริษัทเหล่านี้ช่วยกันพัฒนา คิดค้นเพื่อให้อัมสเตอร์ดัม
+เป็นศูนย์กลางของเทคโนโลยี สำหรับ smart city อัมเสตอร์ดัมกำลังกลายเป็นเมืองต้นแบบให้กับเมืองอื่นๆในยุโรปขณะนี้
+บางโครงการที่เมืองได้ทำไปแล้วเมื่อหลายปีก่อน ทำให้อัมสเตอร์ดัมในเวลานี้เป็นเมืองที่เขียวมากๆ ถ้าได้เดินไปบนถนน ‘Climate
+Street’ คุณก็จะได้สัมผัสกับเทคโนโลยีเหล่านี้ ว่ามันได้เริ่มใช้งานแล้ว ขยะถูกเก็บโดยรถขยะที่ใช้พลังงานไฟฟ้า ไม่สร้างมลพิษ
+ป้ายรถประจำทาง บิลบอร์ด แสงไฟล้วนได้รับพลังงานจากพลังงานแสงอาทิตย์ บ้านหลายพันหลัง ติดหลังคาที่ช่วยประหยัดพลังงาน
+แนวคิดนี้ได้แพร่กระจายจาก ‘Climate Street’ ออกไปยังส่วนต่างๆของเมืองอย่างรวดเร็ว
+มีจุดจ่ายกระแสไฟให้กับรถที่ใช้พลังงานไฟฟ้า ได้ recharge แบตเตอร์รี่ของรถ แทนการเติมน้ำมันดี
+<h3>Xinjiang</h3>เมืองผลิตน้ำมัน ในดินแดนที่ห่างไกลทางตะวันตกเฉียงเหนือของจีน
+มีการเปลี่ยนแปลงและนำเอาเทคโนโลยีอัจฉริยะมาใช้กับเมืองอย่างรวดเร็ว สิ่งที่โดดเด่นของเมืองก็คือ แนวคิดที่จะใช้ IT (
+information-technology)มาเชื่อมโยงกับการใช้ชีวิตในแง่มุมต่างๆของชาวเมือง
+การเป็นเมืองอัจฉริยะของจีนไม่ได้เน้นเรื่องสิ่งปลูกสร้างเท่ากับการเชื่อมโยงด้วยเทคโนโลยี
+ทุกๆสถานีรถประจำทางจะมีการติดตั้งจออิเล็กทรอนิกซ์ ที่จะแสดงให้เห็นข้อมูลเกี่ยวกับการมาของรถประจำทาง
+อุปกรณ์มือถือสามารถเชื่อมโยงกับระบบของรถประจำทาง สามารถตรวจสอบเวลาที่แน่นอนที่รถจะมาถึง ผ่าน mobile apps
+ซึ่งช่วยในเรื่องปัญหาการจราจรได้อย่างมาก มีกล้องติดตั้งอยู่ทั่วเมือง และมีเว็บไซต์ที่จะแสดงการจราจร
+ที่สามารถเข้าถึงข้อมูลทั้งหมดได้ผ่านโทรศัพท์มือถือ ทำให้เห็นการจราจรแบบ real time
+และชาวเมืองสามารถหลีกเลี่ยงการจราจรที่หนาแน่นได้ บ้านแต่ละหลัง ติดตั้ง panic buttons
+ซึ่งเป็นปุ่มขอความช่วยเหลือแบบฉุกเฉิน เมื่อผู้สูงอายุกดปุ่มนี้ ก็จะได้รับการช่วยเหลือในทันที
+มีระบบที่จะทำให้รัฐบาลกลางรู้ได้ในทันทีถึงจำนวนคนว่างงานของเมือง แบบ real -time อีกเช่นกัน
+เพื่อการบริหารและจัดการปัญหาได้อย่างรวดเร็ว และมีประสิทธิภาพ
+<h3>Copenhagen</h3>โคเปนเฮเกน เป็นอีก เมืองที่มีความเป็นอัจฉริยะมากที่สุดแห่งหนึ่งของโลก
+โคเปนเฮเกนมีเป้าหมายที่จะลดการปล่อยคาร์บอนลงให้เป็น 0 ในปี 2025
+ซึ่งจะเป็นการเร่งให้เกิดการปฏิวัติเทคโนโลยีต่างๆเพื่อสิ่งแวดล้อมมากขึ้นนอกจากนั้น
+เมืองยังมีเป้าหมายเพื่อความเป็นอยู่แบบยั่งยืน มีการใช้ระบบอัจฉริยะในการควบคุมไฟบนท้องถนน
+ใช้พลังงานแสงอาทิตย์ในที่สาธารณะ มีระบบขนส่งสาธารณะที่ทันสมัยมากๆในยุโรป
+มีการให้เข้าถึงมูลต่างๆของเมืองอย่างเปิดกว้างเพื่อการพัฒนา เช่น app หาที่จอดรถที่ว่างในเมือง , สมาร์ทโฟน
+สามาถควบคุมการเปิดปิดเครื่องใช้ไฟฟ้าในบ้าน และเครือข่ายการแลกเปลี่ยนจักรยาน
+เหล่านี้ทำให้โคเปนเฮเกนมีความก้าวหน้าไปอย่างมากในการเป็น Smart City</p>
+            </div>
+        </div>
+        <div class="right">
+            Smart city©
+        </div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,405 @@
+@import url('https://fonts.googleapis.com/css?family=Prompt');
+
+body {
+  margin: 0px auto;
+  font-family: prompt;
+  overflow-x: hidden;
+}
+
+a{
+  text-decoration: none;
+  color:black;
+}
+
+li{
+  list-style: none;
+}
+main header{
+  font-size:5em;
+  position:absolute;
+  color:white;
+  padding:8% 2% 0 4%;
+}
+.active-nav {
+  border-bottom: 5px solid rgb(255, 187, 0);
+
+}
+
+.nav {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 10px rgb(88, 88, 88);
+  padding: 5px;
+  text-align: center;
+}
+
+.nav a {
+  color: rgb(0, 0, 0);
+  padding: 5px;
+  font-weight: bold;
+}
+
+.nav li {
+  padding: 20px;
+  display: inline;
+}
+
+.nav a:hover {
+  transition: all 0.2s;
+  border-bottom: 5px solid rgb(0, 0, 0);
+}
+
+.img-bg {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: 100vh;
+
+}
+
+.img-bg img {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+button {
+  padding: 10px;
+  background: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  font-family: prompt thin;
+  font-size: 14px;
+  width: 15%;
+  transition: all 0.2s;
+  font-weight:bold;
+}
+
+button:hover {
+  transition: all 0.4s;
+  background: white;
+  color: black;
+  width: 25%;
+}
+.img-bg button{
+  width:100%;
+}
+.img-bg button:hover{
+  width:115%;
+}
+.img-bg h1 {
+  font-size: 72px;
+  transition: 0.7s;
+  color: white;
+
+}
+
+.img-bg div {
+  padding: 25% 10% 15% 10%;
+  text-align: justify;
+}
+
+.text {
+  padding: 20% 10% 10% 10%;
+  text-align: justify;
+  text-indent: 2em;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 1;
+}
+
+.main {
+  transition: all 0.3s;
+}
+
+.right {
+  width: 100%;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.contain {
+  display: flex;
+  justify-content: center;
+  padding: 30% 5% 10% 5%;
+}
+.contain iframe{
+  width:100%;
+  height:40vmin;
+}
+.box {
+  background-color: rgb(255, 255, 255);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 5px 5px;
+  padding: 35px;
+}
+
+.box-d {
+  background: #353535;
+  padding: 35px;
+  box-shadow: rgba(0, 0, 0, 0.1) 2px 2px 5px 5px;
+  border-radius: 5px;
+}
+
+.list {
+  display: flex;
+  text-align: left;
+}
+
+.list img {
+  width: 20%;
+}
+
+.overlay {
+  position: absolute;
+  /* width: 100%; */
+  height: 100%;
+  background: linear-gradient(90deg, rgba(15, 13, 13, 0.829), rgba(255, 255, 255, 0));
+}
+
+.card{
+  background: rgba(255, 255, 255, 0.31);
+  border-radius: 20px;
+  padding:5%;
+  margin:2%;
+  transition: all 0.5s;
+}
+.card:hover {
+  transition: all 0.5s;
+  box-shadow: 0px 2px 35px #131313;
+}
+section .card{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.img-contain{
+
+  border-radius: 100%;
+  width:30vh;
+  height:30vh;
+  overflow:hidden;
+}
+.services{
+  background: #c9ada7;
+  padding:6%;
+  color:rgb(36, 36, 36);
+}
+.services li{
+  padding:10% 0% 2% 0%;
+}
+.btn{
+  background: white;
+  color:black;
+
+}
+ul .card{
+  width:20%;
+  padding:0% 0% 7% 0%;
+  overflow: hidden;
+  text-align: center;
+  box-shadow:0px 2px 25px #7f8081;
+}
+ul .card img{
+    height:11vmax;
+}
+ul .card li{
+  margin-top:20%;
+  padding:10%;
+}
+.card img{
+  width:100%;
+}
+
+.card div div{
+  font-family: prompt thin;
+}
+.box-a{
+  padding:0% 10% 0 10%;
+  display:flex;
+  justify-content:center;
+}
+
+#info {
+  font-size: 16px;
+  padding: 10px;
+  width: 30%;
+}
+
+#playback {
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+#btn {
+  background: none;
+  border: none;
+  width: 20%;
+  top: 15%;
+  right: 100px;
+  position: absolute;
+}
+
+#imgbtn {
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  transition: all 0.2s;
+  opacity: 60%;
+}
+
+#imgbtn:hover {
+  transition: all 0.5s;
+  opacity: 100%;
+  width: 101%;
+}
+
+#imgbtn:active {
+  transform: rotate(90deg);
+  width: 100%;
+  opacity: 10%;
+}
+#demo{
+  width: 50%;
+}
+.carousel-inner img {
+  width: 70%;
+  height: 70%;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 800px) and (max-width:1024px) {
+  ul{
+    padding:0;
+  }
+  ul .card{
+    width:initial;
+  }
+  ul .card img{
+    height:initial;
+  }
+  ul .card li{
+    margin:0%;
+  }
+  main .contain{
+    padding:80% 5% 0% 5%;
+  }
+  main header{
+    padding-top:25%;
+    font-size:54px;
+  }
+  .box-a{
+    display: block;
+    height: initial;
+    text-align: center;
+    padding:2%;
+  }
+  .list {
+    display: inline-block;
+    padding: 0px;
+  }
+
+  .nav img {
+    width: 3vh;
+  }
+
+  .nav li {
+    padding: 0px 2% 0px 2%;
+  }
+
+  .nav a {
+    font-size: 1px;
+  }
+
+  .nav ul {
+    padding-left: 0;
+    padding-top: 5px;
+    margin: 5px;
+  }
+
+  .contain {
+    border-radius: 0;
+    margin: 0px;
+    padding: 50% 0% 3% 0%;
+    display:block;
+  }
+  
+  .box {
+    border-radius: 0px;
+  }
+  .services ul{
+    padding:10px;
+  }
+  .img-bg {
+    height: 40vh;
+  }
+
+  .img-bg div {
+    padding-top: 15vh;
+  }
+
+  .img-bg h1 {
+    font-size: 42px;
+  }
+
+  button {
+    width: 90%;
+    font-size: 12px;
+  }
+
+  button:hover {
+    width: 90%;
+    font-size: 12px;
+  }
+
+  .img-bg h1 {
+    width: initial;
+    font-size: 5vh;
+    padding:0px;
+  }
+  
+  .img-bg div {
+    font-size: 14px;
+  }
+
+  .text {
+    text-align: justify;
+    font-size: 13px;
+  }
+  .btn{
+    width:100%;
+  }
+  .btn:hover{
+    width:100%;
+  }
+  .btn:active{
+    background-color: rgb(184, 184, 184);
+    border-color:rgb(184,184,184);
+    color:white;
+  }
+
+  #info {
+    width: 90%;
+    display: grid;
+  }
+
+  #btn {
+    top: 15%;
+    right: 3vh;
+  }
+}

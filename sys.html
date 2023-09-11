@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ui.css">
+    <link rel="icon" sizes="32x32" href="favicon/favicon-32x32.png">
+    <link href="https://fonts.googleapis.com/css?family=Prompt" rel='stylesheet'>
+    <title>Smart city - ระบบภายในเมืองอัฉริยะ</title>
+    <script src="app.js"></script>
+</head>
+
+<body id="bg">
+    <div class="header">
+        <div class="nav">
+            <ul>
+                <li><a id="home" href="/index.html">Home</a></li>
+                <li><a id="sys" class="active-nav" href="/sys.html">System</a></li>
+                <li><a id="over" href="/over.html">Overview</a></li>
+                <li><a id="services" href="/Services.html">Services</a></li>
+                <li><a id="con" href="/contact.html">Contact</a></li>
+                <li><a id="about" href="/about.html">About us</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="main">
+        <div>
+            <video id="playback" loop src="/videoplayback.mp4" autoplay></video>
+            <button id="btn" onclick="myFunction()">
+                <img id="imgbtn" src="picture/motion_photos_paused_white_24dp.svg">
+            </button>
+            <script src="app.js"></script>
+        </div>
+        <div class="contain">
+            <div class="box">
+                <h2 style="padding-left:4%">ระบบพื้นฐานในเมือง</h2>
+                <ul class="list" type="none">
+                    <div id="info">
+                        <li><img src="picture/notifications_active_black_24dp.svg"><br><b>แจ้งไฟไหม้</b></li>
+                        ระบบที่จะแจ้งเตือนเมื่อเกิดอัคคีภัย
+                        ติดตั้งเพื่อให้สามารถรับมือกับเหตุการณ์เพลิงไหม้ได้อย่างรวดเร็วเมื่อเกิดเหตุ
+                        มีเซนเซอร์ไว้ตรวจับไฟและควัน และตัวควบคุมไฟ
+                        จะทำให้ทั้งสามารถช่วยชีวิตผู้คน รวมไปถึงป้องกันการเสียหายของทรัพย์สินได้
+                    </div>
+
+                    <div id="info">
+                        <li><img src="picture/tungsten_black_24dp.svg"><br><b>ไฟฟ้าพลังงานหมุนเวียน</b></li>
+                        ระบบไฟฟ้าพลังงานสะอาดที่ได้จาก แผงโซลาร์เซลล์
+                        ที่ได้พลังงานไฟฟ้ามาจากแสงอาทิตย์ช่วยให้บ้านมีการใช้งานไฟฟ้าได้เมื่อเกิดไฟฟ้าขัดข้องจากภาครัฐ
+                        และยังลดค่าใช้จ่ายในบ้านแต่ละหลัง
+                    </div>
+
+                    <div id="info">
+                        <li><img src="picture/nest_cam_wired_stand_black_24dp.svg"><br><b>กล้องวรจรปิด</b></li>
+                        ภายใน Smart city
+                        จะมีกล้องวรจรปิดเพื่อตรวจสอบความปลอดภัยของผู้ที่อยู่อาศัยและช่วยเฝ้าระวังเหตุการณ์ที่ไม่น่าเชื่อถือหรือความเสี่ยงที่อาจเกิดขึ้น
+                        โดยกล้องจะสามารถจำแนกบุคคลภายในและบุคคลภายนอกได้
+                    </div>
+
+                    <div class="break"></div>
+
+                </ul>
+
+                <ul class="list" type="none">
+                    <div id="info">
+                        <li><img src="picture/sensor_door_black_24dp.svg"><br><b>ประตูอัตโนมัติ</b></li>
+                        ประตูอัตโนมัติจะมีทั้งรูปแบบสั่งการด้วยรีโมท และประตูเซ็นเซอร์
+                        แต่จะใช้มอเตอร์เป็นจุดหลักในการควบคุมการปิด-เปิดประตูเหมือนกัน แตกต่างกันที่ชุดการควบคุม
+                        เพราะประตูรีโมท
+                        จะเป็นสั่งการให้เปิด-ปิดด้วยการใช้รีโมทบังคับ
+                        แต่แบบเซ็นเซอร์จะปิด-เปิดเองอัตโนมัติอุปกรณ์ที่ใช้ตรวจจับคนเพื่อใช้ในการเปิดปิดประตูบานเลื่อนอัตโนมัติ
+                        สามารถตรวจจับบุคคลที่กำลังเดินเข้าใกล้
+                        เพื่อสั่งงานประตูให้เปิดออก
+                    </div>
+
+                    <div id="info">
+                        <li><img src="picture/brightness_auto_black_24dp.svg"><br><b>เปิดไฟอัตโนมัติ</b></li>
+                        ในส่วนของรั้วรอบเมือง จะมีไฟที่จะเปิดเมื่อถึงช่วงค่ำ หรือพื้นที่รอบๆมืดลง
+                        โดยใช้เซนเซอร์ในการตรวจจับความสว่างที่รอบๆ
+                    </div>
+                    <div id="info">
+                        <li><img src="picture/health_and_safety_black_24dp.svg"><br><b>Emergency call</b></li>
+                        เป็นระบบที่ไว้ใช้ในกรณีที่เกิดอาการป่วยหรือเหตุไม่ขาดคิดในเมืองหรือบ้าน
+                        จะปุ่มไว้ใช้เรียกหมอหรือหน่วยงานต่างๆที่เกี่ยวข้องเพื่อเข้ารับการช่วยเหลือได้ทันที</li>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="right">
+        <div>Smart City©</div>
+
+</body>
+
+</html>
