@@ -12,13 +12,22 @@ This is a mini-project(group) from web design & development course.
 
 
 ## Screenshot
+* **Home**
+  
+ ![homepage](https://raw.githubusercontent.com/Mikku44/Mini-Project-Web--Front-end-/main/miniWeb/home.png)
+ 
+* **System**
 
-![homepage](https://raw.githubusercontent.com/Mikku44/Mini-Project-Web--Front-end-/main/miniWeb/home.png)
+ ![system](https://raw.githubusercontent.com/Mikku44/Mini-Project-Web--Front-end-/main/miniWeb/system.png)
+ 
+* **Overview**
 
-![system](https://raw.githubusercontent.com/Mikku44/Mini-Project-Web--Front-end-/main/miniWeb/system.png)
+ ![overview](https://raw.githubusercontent.com/Mikku44/Mini-Project-Web--Front-end-/main/miniWeb/Overview.png)
+ 
+* **Contact**
 
-![overview](https://raw.githubusercontent.com/Mikku44/Mini-Project-Web--Front-end-/main/miniWeb/overview.png)
+ ![contact](https://raw.githubusercontent.com/Mikku44/Mini-Project-Web--Front-end-/main/miniWeb/contact.png)
+ 
+* **Service**
 
-![contact](https://raw.githubusercontent.com/Mikku44/Mini-Project-Web--Front-end-/main/miniWeb/contact.png)
-
-![service](https://raw.githubusercontent.com/Mikku44/Mini-Project-Web--Front-end-/main/miniWeb/service.png)
+ ![service](https://raw.githubusercontent.com/Mikku44/Mini-Project-Web--Front-end-/main/miniWeb/service.png)
